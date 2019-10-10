@@ -1,0 +1,1211 @@
+
+
+ 1.  Write  a program to get the cube of
+    any no using the scanf function.
+
+    
+     5*5*5= 125
+
+         int num;
+	 
+	 printf("Enter the Number:");
+	 scanf("%d", &num);
+	 printf("The cube of a number is : %d", num*num*num);
+
+
+    C operators
+
+    
+   Arthematic Operators:
+
+   Increment and Decrement Operators:
+
+
+     ++  1  -- 1 
+   
+    int num = 20;
+
+    num = num++;
+
+    num = num + 1;
+
+    num  = num--;
+
+
+   Relational Operators 
+
+    ==    Equals Equals     
+    
+    !=    Not Equal To
+    >      Greater Than
+    <      Less Than
+    >=     Greater Than or Equal to
+    <=     Less Than or Equal to
+
+   
+     IF and ELSE Statement:
+
+      int a = 100;
+      int b = 100;
+
+      if (a == b )
+
+         {
+           printf("Both are having same prices");
+            
+            }
+
+      else {
+
+             print("Price is not same for the products!!");
+            }
+
+
+
+   Logical Operators
+
+     &&   AND  -------
+     ||    OR
+      !    NOT
+
+
+
+       Types of Variables:
+
+        1. Local variable
+        
+             --- When we define the variable within the same
+                 function and can't be used in any other 
+                 funtion.
+
+
+        2. Global Variable
+
+             --- When we define a variable outside of the       funtion  so that we can use in every funtion we define.
+
+
+        3. Static Variable
+  A variable that is declared with the static keyword is
+   called static variable.
+
+   It retains its value between multiple function calls.
+     
+        static int a = 67;
+   
+        4. Automatic Variable 
+
+          by Default when we right or define variables like
+          int a = 67; it is called as automatic
+          we can add the key word "auto" to it .
+
+
+        5. External Variable 
+
+
+     Data types:
+
+    Basic Data Types
+    
+     Int  -- 1 to 2 bit  -   int num1 = 100; 
+
+     float--- 4 byte 
+
+     char   ---  single 
+     
+     Double   -   7868767877.87878   === 8 byte
+
+     long double = 10 Byte 
+
+   double weight= 876876876788.899;
+
+
+    Derived Data Types:
+
+    Array, Pointers, Structures and Union
+
+   Enumeration Data Type :    enum 
+
+                              void
+
+
+   Key Words:
+
+   int , float , char double, if , else main, void, array, 
+
+   int float= 17;
+
+    32 Key words:
+
+
+   Constant   
+
+   const int weight = 89.9;
+
+
+  Practical First:
+
+   Write a program to use constant key word:
+
+    const float Pie;
+    
+    printf("Enter the Value of Pie: ");
+    
+    scanf("%f", &Pie);
+    
+    
+    printf("The constant value is : %f", Pie);
+
+
+    If Statement:
+
+    The if-else statement is used to perform operations based 
+     on some specific conditions.
+
+     
+     Example:
+
+
+    if ( Expression )
+{
+
+
+    statements
+}
+
+ else 
+        {
+
+             //statements
+         }
+       
+
+   #  if else if ladder statement
+
+    
+     if ( Expression) 
+{
+    //statment
+ }
+  else if ()  
+   {
+
+     statments
+}
+
+   else if ()
+
+{
+
+}
+
+    else if ()
+
+{
+
+
+}
+   else 
+
+     {
+           statments
+
+}
+
+
+    Example:
+
+     Grading system:
+
+      Conditions
+
+           Marks > 85 && Marks <=100   Grade "A"
+           Marks > 60 && Marks <=85     Grade "B+"
+           Marks > 50 && Marks <= 60    Grade  "C"
+           Marks > 40 && Marks <= 50    Grade  "D"
+           Marks > 33 && Marks <= 40    Grade   "E"
+           Marks >1   && Marks <=33      Grade   "Fail"
+ 
+      
+   Switch Statment
+
+    switch (Expression)
+{
+
+          case 1:
+            statments
+            break;
+
+          case 2:
+           statements
+           break;
+
+      
+     default:
+           statement
+
+
+
+
+    }
+
+    Example:
+
+       Price system:
+
+   
+              Apple
+                                 Price
+                 Apple 11        899  $
+                 Apple 11Pro     999  $
+                 Apple 11Pro Max 1200 $
+
+    
+
+    Loops :
+
+     1  Do-while loop
+
+       do {
+
+            //statements
+
+     }  while (a < 20)
+
+   
+     Example:
+
+                   Display numbers from 1 - 50
+ 
+      Example:
+
+
+       int choice;
+
+     pr
+
+
+
+     2. While Loop
+
+       while (   )
+           {
+               //Statements
+          
+               }
+
+ #  Program to print table for the given number using while        loop in C.
+
+   
+     
+     3. For Loop
+         1 to 50
+        int num;
+
+     for(num = 1 ; num <=50  ; num ++ )
+
+            { 
+
+                //Statments
+      
+                   }
+  
+ 1.  Program to print table for the given number using for loop in C.
+
+   
+
+   # continue statement
+
+
+    1- 100     
+
+     1 - 100    50
+
+   
+  1. 
+
+   Functions:
+
+
+     Two types of functions:
+
+     1. Library Functions
+
+         Main(), 
+
+     2. User defined
+
+         int addition ( Argument List )
+                {
+
+
+                      //Statements
+
+                   }
+      
+
+   #  Addition:
+
+        Name : Addition
+        Variables: Apple_8, Apple_11, Total_Price
+        Datatypes: int and float
+        
+
+
+   Defining arguments in functions:
+
+    # Two ways to call a funtion
+
+    1. Call by Value
+     
+
+ int a=10 , b=40
+       avg(a, b);
+
+       it is going to store the value of a varible 
+     
+    
+         scanf("%d", &num)
+
+
+    2. Call by Reference
+
+       a=10; ---Call by address.
+       
+        
+    #  Recursion in C
+
+       Factorial of a number:
+
+          6 = 6*5*4*3*2*1
+
+             num * (num -1)
+
+
+        n * fac (n - 1);
+
+        n = 5
+
+        5 * fac (5 - 1) = 4 
+        $
+
+     Arrays:
+   C Array
+
+ An array is defined as the collection of similar type 
+ of data  items stored at contiguous memory locations.
+
+
+       int a=80, b=90 , c=100, d= 78;
+        float weight = 78.56;
+        
+      Syntex  
+ 
+         datatype_name array_name[array_size];
+
+
+         int Marks[4];// decalaration
+
+           Index  
+
+            Marks[0] = 100;
+            Marks[1] = 200; 
+            Marks[2] = 670;
+            Marks[3] = 900;
+
+
+   printf("The value at the Index no 0 is: %d",Marks[0] );
+
+
+        a[0]= 80;
+        a[1]= 90;
+        a[2] = 100;
+        a[3]  = 78;
+
+      C Array: Declaration with Initialization
+
+
+       int Marks[5] = {89, 90, 96, 67, 80};
+         
+     
+     int Marks[] = {89, 90, 96, 67, 80,90, 67, 89};
+
+
+
+    Two Dimensional Array:
+
+    data_type array_name[rows][columns]
+
+     Initialization of 2D Array in C
+
+int A[4][3] = {{1,6,7},{67,89,90}, {100,200,300}, {3, 8, 9} };
+
+
+     Q. create an array with 7 rows and 2 columns.
+     Q. create and array with 2 rows and 7 columns.
+
+
+     
+   Two-dimensional array example in C
+
+
+   C 2D array example: Storing elements in a matrix and                         printing it.
+
+
+     
+   Pointers in C:
+
+     variables 
+
+     address of the memory
+
+     int age = 15;
+      
+            pointer (*) asterisk
+
+    int age = 15;
+   
+     int *p = &age; 
+
+
+  # Pointer to pointer
+
+
+      double pointer
+
+      int age = 12;
+
+      int *num_1;  /// single
+
+      int **num_2;  // Double
+
+       num_1 = &age;
+       num_2 = &num_1;
+
+
+
+ #  Pointer Arithmetic in C
+
+
+    Increment
+
+    System configuration
+
+     32-bit ---2 bytes
+
+     64-bit --- 4 bytes  if we are going to add 
+
+   pointer = pointer + 1 //// 4 bytes to the address value
+
+    Decrement
+
+   pointer = pointer - 1 //// 4 bytes to the address value
+
+    Addition
+
+     4 bytes 
+
+     pointer = pointer + 6;
+     4        = 4 + 6;  // 4 * 6= 
+
+
+    Subtraction
+
+     4 = 4 - 6 // 4 * 6 = 24  // 24 bits will subtracted
+      
+
+   Pointer to function in C:
+
+ Note:  However, the declaration of the pointer variable must
+   be the same as the function.
+
+   int addition();
+
+      int (*age)();   /// 
+
+     
+
+     Dynamic Memory Allocation:
+
+
+    Arrays  arr [10]
+
+    int arr[20]; // create a block 20 
+
+      10 we have created 20 10 element will be wasted 
+
+     //static allocation of memory
+
+     
+
+    Dynamic memory allocation: 
+
+    1. malloc(); Memory allocation
+
+        // creates a block to memory
+
+      ptr = (cast_type *) malloc (byte_size);
+   // char pointer
+    char *num;
+
+   // allocate memory
+    num = (char *) malloc (5 * sizeof(char));
+
+
+
+
+
+    2. calloc(); Contigiuos allocation
+          // created more than one block of memory.
+
+    3. realloc(); //
+
+
+    4. Free();
+
+
+
+
+   # Strings:
+
+    data types 
+
+    int age= 17;
+    float weight = 78.9;
+    char  Gender = 'M';
+
+   character &  Strings
+
+   M               Aptech Qatar
+
+    1. Array
+    2. String literal
+
+
+   20 , 17 , 89, 100
+
+   int marks[3] ={20, 17, 89, 100}; /// nums
+
+   int str[] = {'A', 'P', 'T', 'E', 'C', 'H'}; 
+
+   int str[] = "Aptech";
+
+     format specifiers 
+
+     int %d, float %f , char %c, %s
+
+  Example: Write a program to store and display the strings
+
+
+   scanf 
+
+
+    write a program were you need to allow the user to 
+
+    enter the:
+
+   1. NAME ---char
+   2. Weight  --float
+   3. age -------int
+   4. city  ------char
+   5. Country------char
+
+
+    then you need them like this:
+
+     Thank You 
+
+      Your name is .......
+      Your weight is .........
+      your age is........
+      your city is .......
+      and then country name is :
+
+
+   String funtions:
+
+    gets()  and puts()
+
+
+    gets() /// allow you to input scanf()
+
+    puts()  ///printf
+
+    Q:  Write a program using gets() and puts() to
+        allow the user to enter the name and then display
+        it.
+
+
+    int float and char
+
+    89-----int
+    89.678------float
+    a b m----gowher -------char
+
+    data type variable value 
+      int      num1   = 89;
+       int     num3 = 100;
+ 
+      float    num2   = 89.678;
+      char     Gender  = 'F';
+
+    Array:
+
+     
+    Example:
+
+     Data Types and Variables:
+
+     Computer is having the memory (RAM)
+
+     Rules:
+
+         Interger values :  0 ---------1, 2 , 1000...
+
+       int ------Data type format specifier--  %d
+
+        decimal numbers:   24.67, 89.90, 1888.09000
+            float/double > format specifier = %f
+
+       characters/strings   A, B , ---Z
+
+        char   = %c ='C'  %s = "APTECH"
+
+
+
+     Variables
+      variables:
+
+           Name, age, weight, computer
+          
+    store a value 200
+    store a value 200.789
+    store a char  F
+    Example
+  
+    int num= 200;
+    float num_2 = 200.789;
+    char  Gender = 'F';
+  
+    printf("%d", num);
+    printf("%f"), num_2);
+    printf("%c", Gender);
+   
+     Arrays:
+
+    100, 8000, 89, 90 , 100
+
+   int num1 = 100;
+   int num2 = 8000; 
+   int num3= 89;
+   int num4= 90;
+   int num5= 100;
+
+   Arrays:
+     
+    Rules: 
+    
+     Datatype Values[4]; 
+
+    int values[4]= {100, 8000, 89, 90, 100};
+
+
+     A---Z 
+
+   aptech
+
+   char str[10] = {'a', 'p', 't', 'e', 'c', 'h'};
+
+  printf("\n %s", str);
+
+
+   Example:
+
+
+  1. Define an array and store "Welcome to C programming"
+     and display as an output.
+
+      
+   Project_1:
+
+    Marks = 20: 
+
+
+    1. Write a program which will allow the user to enter:
+
+      char Name[]:
+      int StdID[]:
+      char Course[]:
+      char CollegeName[]:
+      char City[]:
+      int PhoneNo[]:
+
+    
+     Display the information as an output:
+ 
+      The information of the user.
+
+Upload the Screen Shoots:
+
+1. Screen Shoot of Code
+2. Screen Shoot of Output
+       
+
+   #  C String Functions
+
+    1. strlen()
+     
+         * Going to give you the length of the string
+
+        AptechQatar
+
+   Task-1
+
+    Write a program to ask the user enter the string
+    "Aptech Computer Education Centre" and use the function
+     strlen() to calculate the length of that string.
+
+   scanf("%[^\n]s",VaribleName) 
+
+
+   # strcpy(destination, source)
+   
+     Copy the value of one variable into another.
+
+      char Str1[12] = "AptechQatar";
+
+      char str2[12];
+     
+      strcpy(str2, Str1)
+
+       printf("The  str2 is %s", str2);
+        
+
+
+  # C String Concatenation: strcat()
+
+       aptech     qatar
+
+     char str1[20]= "aptech";
+
+     char str2[5]= "qatar";
+
+    strcat(str1, str2);
+
+ # C Compare String:
+ 
+    strcmp()
+
+
+     # C Reverse String: strrev()
+
+       Aptech >>>>>>>>>hcetpa
+
+    # C Lower case and Upper Case
+   
+         APTECH QATAR
+
+       strlwr();
+
+       strupr();
+
+  #  C String strstr()
+
+     My college name is aptechqatar
+      
+     name
+
+     
+
+  # ******* C Programming Math Functions************
+     
+     ceil(number)
+
+      ceil(3.6) = 4
+
+   rounds up the given number. It returns the integer value       which is greater than or equal to given number.
+
+     floor(number)
+
+     floor(3.6) = 3
+
+     sqrt(number)
+    
+     sqrt (16) = 4
+
+     2*2= 4
+     4*4= 16
+     3*3= 9
+     
+     pow(base, exponent)
+
+     2 power 10
+
+      pow(2, 10)
+
+     abs(number)
+
+    abs(-100)
+      = 100
+
+    Data Structure    
+
+    Struct:
+
+   
+    Entity 
+    members 
+    variables
+    .
+
+    example:
+
+    Program to store employee details:
+
+    char mmpName[];
+    int  empId;
+    int  empsalary;
+    int  empphone;
+    char empaddress[];
+
+
+    1. Mimoun Touil
+    2. Carlos
+    3. Michael
+
+   Example:
+
+    1.Write a program to create structure with the name 
+      "studentdetails" and add the members as given below:
+
+      StdID, StdName, StdCourse, StdPhone, Stdemail
+
+    
+   
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+     
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+   
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
